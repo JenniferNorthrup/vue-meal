@@ -1,0 +1,61 @@
+{
+  "breakfast": [
+    {
+      "name": "Oatmeal",
+      "id": "001",
+      "ingredients": [
+        "Steel-cut oats",
+        "Water",
+        "Honey"
+      ],
+      "preparation": "Cook oats in water, stirring regularly. Add honey."
+    },
+    {
+      "name": "Boiled Egg",
+      "id": "002",
+      "ingredients": [
+        "Egg",
+        "Water",
+        "Salt",
+        "Butter"
+      ],
+      "preparation": "Boil egg in water for 5 minutes. Peel, trying not to burn your fingers. Add butter and salt."
+    }
+  ],
+  "lunch": [
+    {
+      "name": "Tuna Sandwich",
+      "id": "003",
+      "ingredients": [
+        "Whole-wheat bread",
+        "Canned or pouch tuna",
+        "Mayonnaise"
+      ],
+      "preparation": "Mix tuna with mayo. Smush onto bread."
+    }
+  ],
+  "supper": [
+    {
+      "name": "Spaghetti",
+      "id": "004",
+      "ingredients": [
+        "Spaghetti",
+        "Water",
+        "Oil",
+        "Salt",
+        "Spaghetti sauce"
+      ],
+      "preparation": "Cook spaghetti noodles in water with oil and salt. Drain and pour sauce on top."
+    },
+    {
+      "name": "Casserole",
+      "id": "005",
+      "ingredients": [
+        "Egg",
+        "Canned soup",
+        "Vegetables"
+      ],
+      "preparation": "Mix everything together and cook at 350 degrees for 35 minutes."
+    }
+  ]
+}

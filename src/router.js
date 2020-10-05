@@ -1,34 +1,26 @@
-import VueRouter from 'vue-router';
+import Vue from 'vue'
+import Router from 'vue-router'
+import Menus from './views/Menus.vue'
+import Recipes from './views/Recipes.vue'
 
-import Front from './front.vue'
-import Home from './front/views/home.vue'
+Vue.use(Router)
 
-import PageNotFound from './components/pageNotFound.vue'
-
-let routes = [
-  {
-    path: '/',
-    component: Front,
-    children: [
-      {
-        path: '',
-        components: {
-          frontRouter: Home,
-        }
-      }
-    ]
-  },
-  {
-    path: "*",
-    component: PageNotFound
-  }
-];
-
-let router = new VueRouter({
-  routes,
-  linkActiveClass: 'is-active'
-});
-
-
-
-export default router;
+const router =  new Router({
+  routes: [
+    {
+      path: '/',
+      redirect: '/home'
+    },
+    {
+      path: '/menus',
+      name: 'menus',
+      component: Menus
+    },
+    {
+      path: '/recipes',
+      name: 'recipes',
+      component: Recipes
+    }
+  ]
+})
+export default router

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Summer",
+    "id": "01",
+    "description": "Light but satisfying foods, utilizing seasonal vegetables"
+  },
+  {
+    "name": "Winter",
+    "id": "02",
+    "description": "Filling and delicious warm foods, with an emphasis on soups and stews"
+  },
+  {
+    "name": "Vegetarian",
+    "id": "03",
+    "description": "No meat here! Focused on high-protein alternatives to meat"
+  },
+
+]

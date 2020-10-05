@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p --mode=development --config webpack.config.js",
     "build-prod": "webpack -p --mode=production --config webpack.config.js",
-    "start": "node server.js",
+    "start": "kill -9 $(lsof -ti:8080) | node server.js",
     "heroku-postbuild": "webpack -p --mode=production --config webpack.config.js"
   },
   "author": "jenniferhnorthrup@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap-vue": "^2.17.3",
     "express": "^4.17.1",
     "lodash": "^4.17.20",
     "vue": "^2.6.12",
